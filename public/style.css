@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Caprasimo&family=Lora:ital@1&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+display: flex;
+align-items: center;
+justify-content: center;
+min-height: 100vh;
+background: #f4fff4;
+font-family: 'Bacasime Antique', serif;
+font-family: 'Caprasimo', cursive;
+font-family: 'Lora', serif;
+}
+
+section.chat_section
+{
+    width: 800px;
+    max-width: 90%;
+    background: #fff;
+    box-shadow: 0 10px 15px rgba(0,.0,.0, .0.1), 0 4px 6px -2px rgba(0,.0,.0, .0.05);
+}
+.brand
+{
+    padding: 20px;
+    background: #e0e4dcee;
+    display: flex;
+    align-items: center;
+}
+.brand h1{
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #042601;
+    margin-left: 10px;   
+}
+.message_area
+{
+    height: 500px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    padding-top: 40px;
+
+}
+textarea
+{
+    width: 100%;
+    border: none;
+    padding: 20px;
+    font-size: 16px;
+    outline: none;
+    background: #d4f3d9;
+}
+
+.message
+{
+     padding: 20px;
+     border-radius: 4px;
+     margin-bottom: 40px;
+     max-width: 300px;
+     position: relative;
+}
+.incoming
+{
+    background: #839b89;
+    color: #f6faf5;
+}
+.outgoing
+{
+    background: #9bddb4;
+    color: #737373;
+    margin-left: auto;
+}
+.message h4
+{   
+    position: absolute;
+    top: -20px;
+    left: 0;
+    color: #333;
+    font-size: 14px;
+
+}
